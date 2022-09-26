@@ -320,7 +320,7 @@ ul.site_menu li a {
 
 .full_bg {
      background: url(../images/banner1.jpg);
-     background-size: 100% 100%;
+     background-size: auto; /**100% 100%; was like this**/
      background-position: center;
      background-repeat: no-repeat;
 }
