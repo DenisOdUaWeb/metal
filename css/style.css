@@ -257,8 +257,8 @@ button {
      position: fixed;
      z-index: 9;
      background: url(../images/header.jpg);
-     background-size: 100% 100%;
-     background-position: center;
+     background-size: 220% 90%;
+     /*background-position: center;*/
      background-repeat: no-repeat;
 }
 
@@ -344,7 +344,7 @@ ul.site_menu li a {
      position: absolute;
      right: 10%;
      text-transform: uppercase;
-     top: 34%;
+     top: 31%;
 }
 
 .build_box {
@@ -532,7 +532,7 @@ ul.site_menu li a {
 
 .about_img figure img {
      border-radius: 300%;
-     border: #f6dc67ab solid 35px;
+     border: #f6dc67 solid 15px;
      text-align: center;
      margin: 0 auto;
      display: block;
@@ -574,7 +574,7 @@ ul.site_menu li a {
 }
 
 .product figure img {
-     max-height: 331px;
+     max-height: 220px;
 }
 
 .product h3 {
@@ -682,7 +682,7 @@ ul.site_menu li a {
      font-weight: normal;
      padding: 20px 25px 0 25px;
      border: inherit;
-     height: 148px;
+     min-height: 148px;
 }
 
 .main_form .send_btn {
